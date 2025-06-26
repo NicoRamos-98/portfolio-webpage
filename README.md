@@ -50,7 +50,7 @@ screenshots
 Hey! I'm **Nico**, a BSc Computer Science major with a minor in Economics at Vancouver Island University.  
 I build fun and functional projects, share student + travel content on IG, and dream of launching my own tech startup.  
   
-Follow the startup journey and coding life → `@itsnicoramos__`
+Follow the startup journey and coding life on Instagram → `@itsnicoramos__`
 
 ---
 

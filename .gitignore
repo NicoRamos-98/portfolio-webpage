@@ -10,7 +10,7 @@ node_modules/
 # Log files
 *.log
 
-# Environment variables (in case you use a backend or third-party service later)
+# Environment variables 
 .env
 .env.local
 .env.*.local
