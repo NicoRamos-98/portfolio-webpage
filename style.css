@@ -1,0 +1,153 @@
+body {
+  background-color: #f4f4f4;
+  color: #222;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #0077ff;
+}
+
+.navbar i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.home {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.home-wrapper
+.about-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.home-text,
+.home-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+}
+
+.home-text {
+  padding-right: 2%;
+}
+
+.home-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.home-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.home-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 60px 0;
+  color: #222;
+}
+
+.about-heading h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-content a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.about-content a:hover {
+  text-decoration: underline;
+}
+
+.projects {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  color: #222;
+}
+
+.projects-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects-heading h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projects-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-content li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.projects-content em {
+  color: #555;
+  display: block;
+  margin-top: 8px;
+}

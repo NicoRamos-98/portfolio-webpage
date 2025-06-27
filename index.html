@@ -6,68 +6,93 @@
 `   <meta name="description" content="Nico Ramos | Portfolio of a CS student & aspiring tech entrepreneur">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Nico Ramos | Portfolio</title>
 </head>
 <body>
 
-    <nav>
+    <nav class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a></li>
-            <li><a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a></li>
+            <li>
+                <a href="https://github.com/NicoRamos-98" target="_blank">
+                <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/itsnicoramos__" target="_blank">
+                <i class="fab fa-instagram"></i>
+                </a>
+            </li>
         </ul>
     </nav>
 
-    <section>
-        <h1>Hi! I am Nico</h1>
-        <p> A BSc In Computer Science with a minor in economics - blending engineering logic with entrepreneurial vision.  
-            I build clean, creative projects and share my journey across code, travel, and self-growth through instagram.     
-        </p>
-         <img src="img/profile.jpeg" alt="Profile Photo" width="200">
-    </section>
-
-    <section id="about">
-    <h2>About Me</h2>
-    <p>
-        Hi! I’m Nico — a Computer Science student at <strong>Vancouver Island University</strong>, with a passion for turning ideas into real-world tech that connects people, solves problems, and maybe even goes viral along the way.
-    </p>
-    <p>
-        My journey blends logic and creativity: one day I’m building a command-line AI assistant in C++, the next I’m designing a clean, responsive portfolio site like this one. As someone majoring in CS and minoring in Economics, I love thinking like both an engineer and an entrepreneur.
-    </p>
-    <p>
-        I believe in <strong>building in public</strong> — I regularly share my projects, experiences, and travel journey through <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>. I’m currently working part-time while preparing for tech internships — balancing hustle with long-term vision.
-    </p>
-    <p>
-        My dream? To build something meaningful that lasts — maybe even inspires others to start their own journey. Until then, I’ll keep creating, coding, and documenting the process.
-    </p>
+<section id="home" class="home">
+    <div class="home-wrapper">
+    <div class="home-text">
+      <h1>👋 Hi, I’m Nico</h1>
+      <p>
+        A BSc Computer Science student with a minor in Economics — blending engineering logic with entrepreneurial vision.
+        I build clean, creative projects and share my journey through code, travel, and self-growth.
+      </p>
+    </div>
+    <div class="home-image">
+      <img src="img/profile.jpeg" alt="Nico Ramos profile photo" width="200">
+    </div>
+  </div>
 </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <strong>GlobeMate AI</strong> – C++ Travel Assistant  
-                <br>
-                <em>🚧 In development — CLI travel info bot with country-based insights</em>
-            </li>
-            <li>
-                <strong>Portfolio Website</strong> – Personal Web Resume  
-                <br>
-                <em>📌 Currently designing the layout & mobile responsiveness</em>
-            </li>
-            <li>
-                <strong>🤖Codename: Project H.A.I. (Holographic AI Interface)</strong>  
-                <br>
-                <em>🧠 An experimental assistant coded in Python — designed to mimic emotional tone, handle user queries, and respond with conversational logic.
-                    <br>🔒 Full name reveal coming soon.....
-                </em>
-            </li>
-        </ul>
-    </section>
+<section id="about" class="about">
+  <div class="about-wrapper">
+    <div class="about-heading">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <p>
+        Hi! I’m Nico — a Computer Science student at <strong>Vancouver Island University</strong> with a passion for turning ideas into real-world tech. Whether I’m building a command-line AI assistant or designing clean portfolio websites, I love merging creativity with code.
+      </p>
+      <p>
+        As a CS major with a minor in Economics, I like thinking like both an engineer and an entrepreneur. I believe in <strong>building in public</strong> — sharing my journey through <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>.
+      </p>
+      <p>
+        I’m currently working part-time while preparing for internships — balancing hustle with vision. My dream? To build something that lasts… maybe even go viral doing it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="projects-wrapper">
+    <div class="projects-heading">
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-content">
+      <ul>
+        <li>
+          <strong>🌍 GlobeMate AI</strong> – C++ Travel Assistant  
+          <br>
+          <em>🚧 In development — CLI travel info bot with country-based insights</em>
+        </li>
+        <li>
+          <strong>💻 Portfolio Website</strong> – Personal Web Resume  
+          <br>
+           🔗 <a href="https://nicoramos-98.github.io/portfolio-webpage/" target="_blank">View Live Site</a>
+          <em>📌 Currently designing the layout & mobile responsiveness</em>
+        </li>
+        <li>
+          <strong>🤖 Codename: Project H.A.I. (Holographic AI Interface)</strong>  
+          <br>
+          <em>🧠 An experimental assistant coded in Python — designed to mimic emotional tone, handle user queries, and respond with conversational logic.
+            <br>🔒 Full name reveal coming soon…</em>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
     <section id="skills">
     <h2>Skills</h2>
