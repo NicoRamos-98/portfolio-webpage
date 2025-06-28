@@ -36,6 +36,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 ## 📷 Preview
 
 screenshots
+![Preview](img/web.jpeg)
 
 ---
 
