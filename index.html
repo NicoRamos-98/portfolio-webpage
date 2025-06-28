@@ -131,18 +131,12 @@
       <h2>Contact</h2>
     </div>
     <div class="contact-content">
-      <form action="mailto:nicco97r@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-        <input type="submit" value="Send">
-      </form>
+    <form action="https://formspree.io/f/nicco97r@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message"></textarea>
+         <button type="submit">Send</button>
+    </form>
     </div>
   </div>
 </section>
