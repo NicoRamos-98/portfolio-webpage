@@ -8,6 +8,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+
 .navbar {
   position: sticky;
   top: 0;
@@ -15,37 +16,6 @@ body {
   z-index: 1000;
   padding: 12px 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  display: inline;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #222;
-  font-weight: 500;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.navbar a:hover {
-  color: #0077ff;
-}
-
-.navbar i {
-  font-size: 18px;
-  vertical-align: middle;
 }
 
 .nav-container {
@@ -58,17 +28,45 @@ body {
   position: relative;
 }
 
+.logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
 .nav-links {
   display: flex;
   list-style: none;
   gap: 20px;
 }
 
+.nav-links li {
+  display: inline;
+}
+
 .nav-links li a {
   text-decoration: none;
   color: #222;
   font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
+
+.nav-links li a:hover {
+  color: #0077ff;
+}
+
+
+.navbar i {
+  font-size: 18px;
+  vertical-align: middle;
+  transition: color 0.3s ease;
+}
+
+.navbar i:hover {
+  color: #0077ff;
+}
+
 
 .menu-toggle {
   display: none;
@@ -79,26 +77,44 @@ body {
   color: #222;
 }
 
+
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; 
+    display: block;
   }
 
   .nav-links {
-    display: none; 
+    display: none;
     flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    width: 200px;
+
+
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links li {
+    margin-bottom: 12px;
+  }
+
+  .nav-links li:last-child {
+    margin-bottom: 0;
   }
 
   .nav-links.active {
-    display: flex; 
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 .home {
