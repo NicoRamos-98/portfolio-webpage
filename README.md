@@ -18,7 +18,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 
 - HTML5  
 - CSS3  
-- JavaScript (in future updates)  
+- JavaScript
 - Hosting: **GitHub Pages**
 
 ---
