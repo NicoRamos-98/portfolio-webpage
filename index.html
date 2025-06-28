@@ -94,31 +94,47 @@
   </div>
 </section>
 
-    <section id="skills">
-    <h2>Skills</h2>
-    <ul>
+<section id="skills" class="skills">
+  <div class="skills-wrapper">
+    <div class="skills-heading">
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-content">
+      <ul>
         <li><strong>Programming languages:</strong> C++, Python, HTML, CSS, JavaScript</li>
         <li><strong>Tools:</strong> Git, GitHub, VS Code, Terminal, Linux machine, Video editing</li>
         <li><strong>Concepts:</strong> Responsive Design, Command Line Tools</li>
         <li><strong>Soft Skills:</strong> Public learning, Storytelling, Content creation, Multilingual</li>
-    </ul>
+      </ul>
+    </div>
+  </div>
 </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+<section id="contact" class="contact">
+  <div class="contact-wrapper">
+    <div class="contact-heading">
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-content">
+      <form action="mailto:nicco97r@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
-            <input type="submit" value="Send">
-        </form>
-    </section>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year">2025</span> NicoRamos™. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
