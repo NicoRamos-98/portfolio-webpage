@@ -22,7 +22,6 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 - Hosting: **GitHub Pages**
 
 ---
-
 ## 🚀 Future Enhancements
 
 - Add dark mode toggle 🌙  
@@ -30,6 +29,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 - Include a tech blog or startup updates  
 - Animate elements with JavaScript and CSS transitions  
 - Add portfolio filtering by tech stack
+- ⚡ Integrate **Project H.A.I.** – a Python-powered chatbot assistant built for this site
 
 ---
 
