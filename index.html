@@ -1,152 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nico Ramos | Portfolio</title>
-  <meta name="description" content="Nico Ramos | Portfolio of a CS student & aspiring tech entrepreneur">
-  <link rel="icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="description" content="Nico Ramos | Portfolio of a CS student & aspiring tech entrepreneur" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">NicoRamos™</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/NicoRamos-98" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://instagram.com/itsnicoramos__" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </nav>
 
- <nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">NicoRamos™</div>
-
-     <button class="menu-toggle" id="menu-toggle">☰</button>
-
-    <ul class="nav-links" id="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li>
-        <a href="https://github.com/NicoRamos-98" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/itsnicoramos__" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<section id="home" class="home">
+  <section id="home" class="home reveal">
     <div class="home-wrapper">
-    <div class="home-text">
-      <h1>👋 Hi, I’m Nico</h1>
-      <p>
-        A BSc Computer Science student with a minor in Economics — blending engineering logic with entrepreneurial vision.
-        I build clean, creative projects and share my journey through code, travel, and self-growth.
-      </p>
+      <div class="home-text">
+        <h1>👋 Hi, I’m Nico</h1>
+        <p>
+          A BSc Computer Science student at Vancouver Island University
+        </p>
+      </div>
+      <div class="home-image">
+        <img src="img/profile.jpeg" alt="Nico Ramos profile photo" width="200" />
+      </div>
     </div>
-    <div class="home-image">
-      <img src="img/profile.jpeg" alt="Nico Ramos profile photo" width="200">
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="about" class="about">
-  <div class="about-wrapper">
-    <div class="about-heading">
-      <h2>About Me</h2>
+  <section id="about" class="about reveal">
+    <div class="about-wrapper">
+      <div class="about-heading">
+        <h2 class="hacker-glow">About Me</h2>
+      </div>
+      <div class="about-content">
+        <p>
+          Hi! I’m Nico — a Computer Science student at <strong>Vancouver Island University</strong> with a passion for turning ideas into real-world tech.
+        </p>
+        <p>
+          As a CS major I believe in <strong>building in public</strong> — sharing my journey through 
+          <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and 
+          <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>.
+        </p>
+        <p>
+          Currently working part-time and preparing for internships — balancing hustle with vision.
+        </p>
+      </div>
     </div>
-    <div class="about-content">
-      <p>
-        Hi! I’m Nico — a Computer Science student at <strong>Vancouver Island University</strong> with a passion for turning ideas into real-world tech. Whether I’m building a command-line AI assistant or designing clean portfolio websites, I love merging creativity with code.
-      </p>
-      <p>
-        As a CS major with a minor in Economics, I like thinking like both an engineer and an entrepreneur. I believe in <strong>building in public</strong> — sharing my journey through <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>.
-      </p>
-      <p>
-        I’m currently working part-time while preparing for internships — balancing hustle with vision. My dream? To build something that lasts… maybe even go viral doing it.
-      </p>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="projects" class="projects">
-  <div class="projects-wrapper">
-    <div class="projects-heading">
-      <h2>Projects</h2>
+  <section id="projects" class="projects reveal">
+    <div class="projects-wrapper">
+      <div class="projects-heading">
+        <h2 class="hacker-glow">Projects</h2>
+      </div>
+      <div class="projects-content">
+        <ul>
+          <li>
+            <strong>💻 Portfolio Website</strong> – Personal Web Resume <br />
+            🔗 <a href="https://nicoramos-98.github.io/portfolio-webpage/" target="_blank">View Live Site</a>
+            <em>📌Status: Actively developing layout, styling & mobile responsiveness</em>
+            <p>A clean, responsive, and personal website built using HTML, CSS, and JavaScript.</p>
+          </li>
+          <li>
+            <strong>🤖 Codename: Project H.A.I. (Holographic AI Interface)</strong><br />
+            🔗 <a href="https://github.com/NicoRamos-98/project-hai">Click Here</a>
+            <em>Experimental Python assistant mimicking emotional tone and conversation.</em>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="projects-content">
-      <ul>
-        <li>
-          <strong>💻 Portfolio Website</strong> – Personal Web Resume  
-          <br>
-           🔗 <a href="https://nicoramos-98.github.io/portfolio-webpage/" target="_blank">View Live Site</a>
-          <em>📌Status: Actively developing layout, styling & mobile responsiveness</em>
-          <p>A clean, responsive, and personal website built using HTML, CSS, and JavaScript.
-             Designed to showcase my skills, projects, and tech journey as a CS student and aspiring tech entrepreneur.
-          </p>
-          <strong>🌟 Upcoming Features:</strong>
-          <p>
-            Dark mode toggle for modern UX, Interactive project cards with animations,
-	        Integration of Project H.A.I. — a custom-coded assistant with real-time interaction
-          </p>
-        </li>
-        <li>
-          <strong>🤖 Codename: Project H.A.I. (Holographic AI Interface)</strong>
-          <br>
-          🔗<a href="https://github.com/NicoRamos-98/project-hai">Click Here</a>
-          <em>🧠 An experimental assistant coded in Python — designed to mimic emotional tone, handle user queries, and respond with conversational logic.
-            <br>🔒 Full name reveal coming soon…</em>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="skills" class="skills">
-  <div class="skills-wrapper">
-    <div class="skills-heading">
-      <h2>Skills</h2>
+  <section id="skills" class="skills reveal">
+    <div class="skills-wrapper">
+      <div class="skills-heading">
+        <h2 class="hacker-glow">Skills</h2>
+      </div>
+      <div class="skills-content">
+        <ul>
+          <li><strong>Languages:</strong> C++, Python, HTML, CSS, JavaScript</li>
+          <li><strong>Tools:</strong> Git, VS Code, Linux, Terminal</li>
+          <li><strong>Other:</strong> Content creation, Public learning, Bilingual</li>
+        </ul>
+      </div>
     </div>
-    <div class="skills-content">
-      <ul>
-        <li><strong>Programming languages:</strong> C++, Python, HTML, CSS, JavaScript</li>
-        <li><strong>Tools:</strong> Git, GitHub, VS Code, Terminal, Linux machine, Video editing</li>
-        <li><strong>Concepts:</strong> Responsive Design, Command Line Tools</li>
-        <li><strong>Soft Skills:</strong> Public learning, Storytelling, Content creation, Multilingual</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section id="contact" class="contact">
+  <section id="contact" class="contact reveal">
   <div class="contact-wrapper">
     <div class="contact-heading">
-      <h2>Contact</h2>
+      <h2 class="hacker-glow">Contact</h2>
     </div>
     <div class="contact-content">
-    <form action="https://formspree.io/f/Nico Ramos" method="POST">
-  ```   <label for="name">Your Name:</label>
-        <input type="text" name="name" id="name" required>
+      <form action="https://formspree.io/f/Nico Ramos" method="POST" class="vibe-form" autocomplete="ON">
+        <input type="hidden" name="_captcha" value="false">
 
-        <label for="email">Your Email:</label>
-        <input type="email" name="email" id="email" required>
+        <div class="form-group">
+          <input type="text" name="name" id="name" required placeholder=" " />
+          <label for="name">Your Name</label>
+        </div>
 
-        <label for="message">Your Message:</label>
-        <textarea name="message" id="message" rows="5" required></textarea>
+        <div class="form-group">
+          <input type="email" name="email" id="email" required placeholder=" " />
+          <label for="email">Your Email</label>
+        </div>
 
-        <button type="submit">Send</button>
-    </form>
+        <div class="form-group">
+          <textarea name="message" id="message" rows="5" required placeholder=" "></textarea>
+          <label for="message">Your Message</label>
+        </div>
+
+        <button type="submit" class="vibe-btn">🚀 Send</button>
+      </form>
     </div>
   </div>
 </section>
 
-<footer class="footer">
-  <p>&copy; <span id="year">2025</span> NicoRamos™. All rights reserved.</p>
-</footer>
 
-<script src="script.js"></script>
+  <footer class="footer">
+    <p>&copy; <span id="year">2025</span> NicoRamos™. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
