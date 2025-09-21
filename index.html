@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="navbar">
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar reveal">
     <div class="nav-container">
       <div class="logo">NicoRamos™</div>
       <button class="menu-toggle" id="menu-toggle">☰</button>
@@ -25,13 +26,12 @@
     </div>
   </nav>
 
+  <!-- ===== Home ===== -->
   <section id="home" class="home reveal">
     <div class="home-wrapper">
       <div class="home-text">
         <h1>👋 Hi, I’m Nico</h1>
-        <p>
-          A BSc Computer Science student at Vancouver Island University
-        </p>
+        <p>A BSc Computer Science student at Vancouver Island University</p>
       </div>
       <div class="home-image">
         <img src="img/profile.png" alt="Nico Ramos profile photo" width="200" />
@@ -39,27 +39,32 @@
     </div>
   </section>
 
+  <!-- ===== About ===== -->
   <section id="about" class="about reveal">
     <div class="about-wrapper">
       <div class="about-heading">
         <h2 class="hacker-glow">About Me</h2>
       </div>
       <div class="about-content">
-        <p>
-          Hi! I’m Nico — a Computer Science student at <strong>Vancouver Island University</strong> with a passion for turning ideas into real-world tech.
-        </p>
-        <p>
-          As a CS major I believe in <strong>building in public</strong> — sharing my journey through 
-          <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and 
-          <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>.
-        </p>
-        <p>
-          Currently working part-time and preparing for internships — balancing hustle with vision.
-        </p>
+        <div class="card reveal">
+          <p>Hi! I’m Nico — a <strong>Computer Science major at Vancouver Island University</strong> with a passion for turning ideas into real-world tech.</p>
+        </div>
+        <div class="card reveal">
+          <p>I believe in <strong>building in public</strong> — documenting my journey on 
+            <a href="https://instagram.com/itsnicoramos__" target="_blank">Instagram</a> and 
+            <a href="https://github.com/NicoRamos-98" target="_blank">GitHub</a>, where I share projects, progress, and lessons learned.</p>
+        </div>
+        <div class="card reveal">
+          <p>My focus is on <strong>AI development and software engineering</strong>. I’m currently building <strong>VeyraAI</strong>, an experimental personal assistant project, while sharpening my skills through coursework and personal projects.</p>
+        </div>
+        <div class="card reveal">
+          <p>My long-term goal: grow into a <strong>tech founder and AI engineer</strong>, creating tools that bridge creativity, learning, and innovation.</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- ===== Projects ===== -->
   <section id="projects" class="projects reveal">
     <div class="projects-wrapper">
       <div class="projects-heading">
@@ -69,14 +74,13 @@
         <ul>
           <li>
             <strong>💻 Portfolio Website</strong> – Personal Web Resume <br />
-            🔗 <a href="https://nicoramos-98.github.io/portfolio-webpage/" target="_blank">Click Here</a>
+            🔗 <a href="https://nicoramos-98.github.io/portfolio-webpage/" target="_blank">Click Here </a>
             <em>📌 Status: Actively developing layout, styling & mobile responsiveness</em>
             <p>A clean, responsive, and personal website built using HTML, CSS, and JavaScript.</p>
           </li>
-          
           <li>
             <strong>🤖 Codename: VeyraAI (Holographic AI Interface)</strong><br />
-            🔗 <a href="https://github.com/nicoramos-98/AIAssistant/" target="_blank">Click Here</a>
+            🔗 <a href="https://github.com/NicoRamos-98/AIAssistant">Click Here</a>
             <em>Experimental Python assistant mimicking emotional tone and conversation.</em>
           </li>
           <li>
@@ -87,7 +91,7 @@
           </li>
           <li>
             <strong>🌐 CSCI 159 Computer Science I </strong> <br>
-            🔗 <a href="https://nicoramos-98.github.io/csci159-labs/" target="_blank">Click Here</a>
+            🔗 <a href="https://github.com/NicoRamos-98/csci159-labs" target="_blank">Click Here</a>
             <em>📌 Status: In progress Fall 2025 semester at Vancouver Island University </em>
             <p>This course introduces programming in C++. Topics include Linux command line, input/output,
             conditionals, loops, functions, arrays, pointers, and linked lists.  
@@ -95,7 +99,7 @@
           </li>
           <li>
             <strong>🌐 CSCI 112 Applications Programming </strong> <br>
-            🔗 <a href="https://nicoramos-98.github.io/csci112/" target="_blank">Click Here</a>
+            🔗 <a href="https://github.com/NicoRamos-98/csci112" target="_blank">Click Here</a>
             <em>📌 Status: In progress Fall 2025 semester at Vancouver Island University </em>
             <p>Assignments and projects using VBA in Excel to automate workflows and practice applied programming.  
             Final repo will be published after the final exams.</p>
@@ -105,21 +109,22 @@
     </div>
   </section>
 
+  <!-- ===== Skills ===== -->
   <section id="skills" class="skills reveal">
     <div class="skills-wrapper">
       <div class="skills-heading">
         <h2 class="hacker-glow">Skills</h2>
       </div>
       <div class="skills-content">
-        <ul>
-          <li><strong>Languages:</strong> C++, Python, HTML, CSS, JavaScript, Excel VBA</li>
-          <li><strong>Tools:</strong> Git and GitHub, VS Code, Linux, Terminal</li>
-          <li><strong>Other:</strong> Content creation, Public learning, Bilingual</li>
-        </ul>
+        <div class="card reveal"><strong>Languages:</strong> C++, Python, HTML, CSS, JavaScript, Excel VBA</div>
+        <div class="card reveal"><strong>Tools:</strong> Git & GitHub, VS Code, Linux, Terminal</div>
+        <div class="card reveal"><strong>Focus Areas:</strong> AI development, software engineering, web development</div>
+        <div class="card reveal"><strong>Other:</strong> Content creation, building in public</div>
       </div>
     </div>
   </section>
 
+  <!-- ===== Contact ===== -->
   <section id="contact" class="contact reveal">
     <div class="contact-wrapper">
       <div class="contact-heading">
@@ -150,7 +155,8 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <!-- ===== Footer ===== -->
+  <footer class="footer reveal">
     <p>&copy; <span id="year">2025</span> NicoRamos™. All rights reserved.</p>
   </footer>
 
