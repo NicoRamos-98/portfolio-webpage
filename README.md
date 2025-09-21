@@ -29,7 +29,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 - Include a tech blog or startup updates  
 - Animate elements with JavaScript and CSS transitions  
 - Add portfolio filtering by tech stack
-- ⚡ Integrate **Project H.A.I.** – a Python-powered chatbot assistant built for this site
+- 💬 Build an interactive chatbot using JavaScript to answer portfolio-related questions
 
 ---
 
