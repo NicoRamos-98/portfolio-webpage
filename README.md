@@ -27,7 +27,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 ## 🚀 Roadmap
 
 - **V1 (Summer 2025):** Initial site with basic layout and portfolio intro  
-- **V2 (Fall 2025):** Redesigned with animations, card sections, course projects, and improved responsiveness ✅  
+- **V2 (Fall 2025):** Redesigned with animations, card sections, course projects, and improved responsiveness 
 - **V3 (2026):** Integrate **ChatGPT-5** as an interactive chatbot assistant  
   - ⚡ *Note: VeyraAI is a separate personal startup project and not part of this portfolio site.*
 
