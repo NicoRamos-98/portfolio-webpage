@@ -52,3 +52,4 @@ Follow the startup journey and coding life on Instagram → `@itsnicoramos__`
 
 - GitHub: [github.com/NicoRamos-98](https://github.com/NicoRamos-98)  
 - Instagram: [@itsnicoramos__](https://instagram.com/itsnicoramos__)  
+- Linjedin: [nico-ramos28](https://linkedin.com/nico-ramos28)
