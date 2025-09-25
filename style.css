@@ -155,6 +155,16 @@ h2 {
   animation: floaty 5s ease-in-out infinite, pulseGlow 3s infinite ease-in-out;
 }
 
+#hero-subtitle {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease 1s;
+}
+#hero-subtitle.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @keyframes floaty {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }

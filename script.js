@@ -31,3 +31,24 @@ const observer = new IntersectionObserver(entries => {
 });
 
 revealElements.forEach(el => observer.observe(el));
+
+// Hero title animation
+const title = document.getElementById("hero-title");
+const text = "Hi, I’m Nico";
+
+title.innerHTML = text
+  .split("")
+  .map((char, i) => `<span style="opacity:0; transition:opacity 0.3s ${i * 0.1}s">${char}</span>`)
+  .join("");
+
+window.onload = () => {
+  // keep  other onload functions safe
+  document.querySelectorAll("#hero-title span").forEach(span => {
+    span.style.opacity = 1;
+  });
+};
+
+// show subtitle after a delay
+  setTimeout(() => {
+    document.getElementById("hero-subtitle").classList.add("visible");
+  }, text.length * 100); 
