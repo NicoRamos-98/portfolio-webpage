@@ -52,3 +52,4 @@ window.onload = () => {
   setTimeout(() => {
     document.getElementById("hero-subtitle").classList.add("visible");
   }, text.length * 100); 
+
