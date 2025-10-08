@@ -41,15 +41,13 @@ title.innerHTML = text
   .map((char, i) => `<span style="opacity:0; transition:opacity 0.3s ${i * 0.1}s">${char}</span>`)
   .join("");
 
-window.onload = () => {
-  // keep  other onload functions safe
+window.addEventListener('load', () => {
   document.querySelectorAll("#hero-title span").forEach(span => {
     span.style.opacity = 1;
   });
-};
+});
 
 // show subtitle after a delay
-  setTimeout(() => {
-    document.getElementById("hero-subtitle").classList.add("visible");
-  }, text.length * 100); 
-
+setTimeout(() => {
+  document.getElementById("hero-subtitle").classList.add("visible");
+}, text.length * 100);
