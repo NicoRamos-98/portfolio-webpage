@@ -14,7 +14,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 - 📬 Contact form (HTML-based)  
 - ✨ Smooth reveal animations & glowing profile image  
 - 📱 Fully responsive across devices  
-- 🌐 Social media links (GitHub, Instagram)
+- 🌐 Social media links (GitHub, Instagram, Threads, Linkedin, X)
 
 ## 📌 Features (V1)
 
