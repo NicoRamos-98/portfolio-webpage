@@ -35,7 +35,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 
 ## 🔗 Live Site
 
-[🌐 View Portfolio Website](https://github.com/itsnicoramos/portfolio-webpage/)
+[🌐 View Portfolio Website](https://itsnicoramos.github.io/portfolio-webpage/)
 
 ---
 
