@@ -35,7 +35,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 
 ## 🔗 Live Site
 
-[🌐 View Portfolio Website](https://nicoramos-98.github.io/portfolio-webpage/)
+[🌐 View Portfolio Website](https://github.com/itsnicoramos/portfolio-webpage/)
 
 ---
 
@@ -50,6 +50,6 @@ Follow the startup journey and coding life on Instagram → `@itsnicoramos__`
 
 ## 🤝 Connect with Me
 
-- GitHub: [github.com/NicoRamos-98](https://github.com/NicoRamos-98)  
+- GitHub: [github.com/NicoRamos-98](https://github.com/itsnicoramos)  
 - Instagram: [@itsnicoramos__](https://instagram.com/itsnicoramos__)  
 - Linjedin: [nico-ramos28](https://linkedin.com/nico-ramos28)
