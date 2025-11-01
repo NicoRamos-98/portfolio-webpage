@@ -5,7 +5,7 @@ A responsive and creative personal website built using **HTML**, **CSS**, and **
 ---
 ## 📌 Features (V3)
 
-- Coming soon summer 2026!  
+- Coming soon summer 2026 redesign in react.js 
 
 ## 📌 Features (V2)
 
@@ -50,6 +50,7 @@ Follow the startup journey and coding life on Instagram → `@itsnicoramos__`
 
 ## 🤝 Connect with Me
 
-- GitHub: [github.com/NicoRamos-98](https://github.com/itsnicoramos)  
+- GitHub: [github.com/itsnicoramos](https://github.com/itsnicoramos)  
 - Instagram: [@itsnicoramos__](https://instagram.com/itsnicoramos__)  
-- Linjedin: [nico-ramos28](https://linkedin.com/nico-ramos28)
+- Linkedin: [nico-ramos28](https://linkedin.com/nico-ramos28)
+- TikTok [itsnicoramos_](https://www.tiktok.com/@itsnicoramos_)
